@@ -20,7 +20,6 @@ import datetime
 import glob
 import os
 import pathlib
-import re
 import shutil
 
 # Needed because importing torch after TF causes the runtime to crash
