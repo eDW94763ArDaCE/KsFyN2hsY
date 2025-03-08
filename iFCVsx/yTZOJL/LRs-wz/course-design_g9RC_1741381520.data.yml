@@ -1,5 +1,4 @@
 on:
-  issues:
     types: [opened]
 
 jobs:
