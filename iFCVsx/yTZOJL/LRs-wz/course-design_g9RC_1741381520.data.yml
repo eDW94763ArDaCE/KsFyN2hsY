@@ -3,7 +3,6 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
     steps:
       - uses: gege-circle/github-action@master
         env:
