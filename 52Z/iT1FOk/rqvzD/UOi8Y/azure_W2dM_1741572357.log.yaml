@@ -206,7 +206,6 @@ dockers:
     goarch: amd64
     ids:
       - binary-linux
-    dockerfile: .release/alpine.Dockerfile
     build_flag_templates:
       - "--pull"
       - "--platform=linux/amd64"
