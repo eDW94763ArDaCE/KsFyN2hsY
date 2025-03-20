@@ -6,5 +6,4 @@ datadump_pretty.json
 db.sqlite
 dump.json
 dump.rdb
-README.md
 setup.cfg
