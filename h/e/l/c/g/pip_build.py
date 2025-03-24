@@ -100,7 +100,6 @@ def move_tf_keras_directory():
     with open(os.path.join(package, "api", "__init__.py"), "w") as f:
         f.write(contents)
     # Replace `keras.api._tf_keras` with `keras._tf_keras`.
-    for root, _, fnames in os.walk(os.path.join(package, "_tf_keras")):
         for fname in fnames:
             if fname.endswith(".py"):
                 tf_keras_fpath = os.path.join(root, fname)
