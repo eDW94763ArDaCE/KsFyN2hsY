@@ -193,7 +193,6 @@ Baseline: [76a6d65]
 * Improved docs for earlgrey gem, contributors guide, etc.
 * Fixed all asserts to use internal implementation instead of NSAssert which
   can be disabled.
-* Updated cheatsheet render script to use Chrome 59.
 * Consolidated DFS and BFS hierarchy traversals.
 * Renamed `GREYExposed.h` to `GREYAppleInternals.h`
 * Removed redundant categories and moved methods to private headers.
